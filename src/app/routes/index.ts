@@ -1,19 +1,14 @@
-import express, { Request,Response } from 'express';
+import express from 'express';
+import { AcademicSemesterRoutes } from '../modules/academicSemester/academicSemester.route';
 
 const router = express.Router();
-// for example
-const yourMiddlewareFunction = (req:Request, res:Response) => {
-  res.send("Hello from your middleware! helllllo");
-};
-
-
 
 const moduleRoutes = [
   // ... routes
   {
-    path: "",
-    routes: yourMiddlewareFunction
-  }
+    path: '/academic-semesters',
+    routes: AcademicSemesterRoutes,
+  },
 ];
 
 moduleRoutes.forEach(route => router.use(route.path, route.routes));
