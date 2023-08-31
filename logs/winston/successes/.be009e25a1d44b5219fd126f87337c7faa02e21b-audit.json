@@ -1,70 +1,85 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\.be009e25a1d44b5219fd126f87337c7faa02e21b-audit.json",
-  "files": [
-    {
-      "date": 1692444845703,
-      "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-19-08-17-success.log",
-      "hash": "c805c15e265c50e8f9691fb9e225fbca18d9a02ac7eedfd31660731de2bbeb23"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1692507613324,
-      "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-20-08-11-success.log",
-      "hash": "a07c7e42be3af4df5174f24776ba748ee562b08f9c5bcb3334ac9dfdd73e3552"
-    },
-    {
-      "date": 1692514408178,
-      "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-20-08-12-success.log",
-      "hash": "813b0cd2a4c88a45b4d96a959ce3b65c113e7bcb4b564bb56e318e33a4d007dc"
-    },
-    {
-      "date": 1692514809785,
-      "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-20-08-13-success.log",
-      "hash": "450839f8646f6dd55a47f71cf733297ed539d9b86a4e994be341f387d131414f"
-    },
-    {
-      "date": 1692543883294,
-      "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-20-08-21-success.log",
-      "hash": "2104726c4cd69396e5d59542a1080fd61b2e00bda1bcad20715245750233541d"
-    },
-    {
-      "date": 1693368707919,
-      "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-30-08-10-success.log",
-      "hash": "947527d747cb0324eb7320c413f2abaf1e624b58e0e917e6d67a7c6ce1e7fa29"
-    },
-    {
-      "date": 1693371663716,
-      "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-30-08-11-success.log",
-      "hash": "2d1a86ddf18a20adafce6124c545041dbf720a059c38a43b1df10abb2f630a17"
-    },
-    {
-      "date": 1693375244065,
-      "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-30-08-12-success.log",
-      "hash": "df260fb7aaad6927972a36204faabe54329a9190c073f8e30fce323f75dcf4ed"
-    },
-    {
-      "date": 1693389243341,
-      "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-30-08-15-success.log",
-      "hash": "0875cd673b2f131199961f0435fae313ae40074acdf6280af15d21ba9615352b"
-    },
-    {
-      "date": 1693390060383,
-      "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-30-08-16-success.log",
-      "hash": "827827f05de209da257a799cd32cb739a242aceba818daea334d2509c44f40e6"
-    },
-    {
-      "date": 1693393206568,
-      "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-30-08-17-success.log",
-      "hash": "b3b7f86bbb5d867e3b2b11e8929a822c66e728ed983d3ba64ef8a81438982ba1"
-    },
-    {
-      "date": 1693408604905,
-      "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-30-08-21-success.log",
-      "hash": "36fc6b3d398a8f6a6f71aaad5fe2fbe7972e7a482363860dce6da49726e529aa"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\.be009e25a1d44b5219fd126f87337c7faa02e21b-audit.json",
+    "files": [
+        {
+            "date": 1692444845703,
+            "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-19-08-17-success.log",
+            "hash": "c805c15e265c50e8f9691fb9e225fbca18d9a02ac7eedfd31660731de2bbeb23"
+        },
+        {
+            "date": 1692507613324,
+            "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-20-08-11-success.log",
+            "hash": "a07c7e42be3af4df5174f24776ba748ee562b08f9c5bcb3334ac9dfdd73e3552"
+        },
+        {
+            "date": 1692514408178,
+            "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-20-08-12-success.log",
+            "hash": "813b0cd2a4c88a45b4d96a959ce3b65c113e7bcb4b564bb56e318e33a4d007dc"
+        },
+        {
+            "date": 1692514809785,
+            "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-20-08-13-success.log",
+            "hash": "450839f8646f6dd55a47f71cf733297ed539d9b86a4e994be341f387d131414f"
+        },
+        {
+            "date": 1692543883294,
+            "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-20-08-21-success.log",
+            "hash": "2104726c4cd69396e5d59542a1080fd61b2e00bda1bcad20715245750233541d"
+        },
+        {
+            "date": 1693368707919,
+            "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-30-08-10-success.log",
+            "hash": "947527d747cb0324eb7320c413f2abaf1e624b58e0e917e6d67a7c6ce1e7fa29"
+        },
+        {
+            "date": 1693371663716,
+            "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-30-08-11-success.log",
+            "hash": "2d1a86ddf18a20adafce6124c545041dbf720a059c38a43b1df10abb2f630a17"
+        },
+        {
+            "date": 1693375244065,
+            "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-30-08-12-success.log",
+            "hash": "df260fb7aaad6927972a36204faabe54329a9190c073f8e30fce323f75dcf4ed"
+        },
+        {
+            "date": 1693389243341,
+            "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-30-08-15-success.log",
+            "hash": "0875cd673b2f131199961f0435fae313ae40074acdf6280af15d21ba9615352b"
+        },
+        {
+            "date": 1693390060383,
+            "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-30-08-16-success.log",
+            "hash": "827827f05de209da257a799cd32cb739a242aceba818daea334d2509c44f40e6"
+        },
+        {
+            "date": 1693393206568,
+            "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-30-08-17-success.log",
+            "hash": "b3b7f86bbb5d867e3b2b11e8929a822c66e728ed983d3ba64ef8a81438982ba1"
+        },
+        {
+            "date": 1693408604905,
+            "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-30-08-21-success.log",
+            "hash": "36fc6b3d398a8f6a6f71aaad5fe2fbe7972e7a482363860dce6da49726e529aa"
+        },
+        {
+            "date": 1693452602657,
+            "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-31-08-09-success.log",
+            "hash": "111d8547543021d5c9b6974ae4a614fc0354dd5a44b851a05f209bf7e8329edd"
+        },
+        {
+            "date": 1693473163603,
+            "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-31-08-15-success.log",
+            "hash": "6224cebb149c7cf981b8e0b877a1637a96b6b8d22ddf44bbebabbe61da881aab"
+        },
+        {
+            "date": 1693476514480,
+            "name": "C:\\Next-level-web-course\\university-management-core-service\\logs\\winston\\successes\\phu-2023-31-08-16-success.log",
+            "hash": "4f0e294eebd635a162d1ba4553f6c1358e1eea54c9fd87b2413e7e106d39c172"
+        }
+    ],
+    "hashType": "sha256"
 }
