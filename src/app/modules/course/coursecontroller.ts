@@ -36,43 +36,43 @@ const getAllFromDB = catchAsync(async (req: Request, res: Response) => {
     data: result,
   });
 });
-// const getByIdFromDB = catchAsync(async (req: Request, res: Response) => {
-//   const { id } = req.params;
-//   const result = await StudentService.getByIdFromDB(id);
-//   sendResponse(res, {
-//     statusCode: httpStatus.OK,
-//     success: true,
-//     message: 'Student fetched successfully',
-//     data: result,
-//   });
-// });
-// const updateFromDB = catchAsync(async (req: Request, res: Response) => {
-//   const { id } = req.params;
-//   const payload = req.body;
-//   const result = await StudentService.updateFromDb(id, payload);
-//   sendResponse(res, {
-//     statusCode: httpStatus.OK,
-//     success: true,
-//     message: 'Student updated successfully',
-//     data: result,
-//   });
-// });
-// const deleteFromDB = catchAsync(async (req: Request, res: Response) => {
-//   const { id } = req.params;
+const getByIdFromDB = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const result = await CourseService.getByIdFromDB(id);
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Course fetched successfully',
+    data: result,
+  });
+});
+const updateFromDB = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const payload = req.body;
+  const result = await CourseService.updateFromDb(id, payload);
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Course updated successfully',
+    data: result,
+  });
+});
+const deleteFromDB = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
 
-//   const result = await StudentService.deleteFromDb(id);
-//   sendResponse(res, {
-//     statusCode: httpStatus.OK,
-//     success: true,
-//     message: 'Student deleted successfully',
-//     data: result,
-//   });
-// });
+  const result = await CourseService.deleteFromDb(id);
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Course deleted successfully',
+    data: result,
+  });
+});
 
 export const CourseController = {
   insertIntoDB,
   getAllFromDB,
-  // getByIdFromDB,
-  // updateFromDB,
-  // deleteFromDB,
+  getByIdFromDB,
+  updateFromDB,
+  deleteFromDB,
 };
