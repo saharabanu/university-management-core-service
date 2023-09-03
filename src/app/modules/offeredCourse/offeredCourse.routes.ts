@@ -6,6 +6,26 @@ import validateRequest from '../../middlewares/validateRequest';
 import { OfferedCourseValidation } from './offeredCourse.validations';
 
 const router = express.Router();
+//  update and delete route problem
+router.get(
+  '/:id',
+  auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
+
+  OfferedCourseController.getByIdFromDB
+);
+router.patch(
+  '/:id',
+  auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
+  validateRequest(OfferedCourseValidation.update),
+  OfferedCourseController.updateFromDB
+);
+router.delete(
+  '/:id',
+  auth(ENUM_USER_ROLE.SUPER_ADMIN, ENUM_USER_ROLE.ADMIN),
+  OfferedCourseController.deleteFromDB
+);
+
+router.get('/', OfferedCourseController.getAllFromDB);
 
 router.post(
   '/',
@@ -13,7 +33,5 @@ router.post(
   validateRequest(OfferedCourseValidation.create),
   OfferedCourseController.insertIntoDB
 );
-
-router.get('/');
 
 export const OfferedCourseRoutes = router;
